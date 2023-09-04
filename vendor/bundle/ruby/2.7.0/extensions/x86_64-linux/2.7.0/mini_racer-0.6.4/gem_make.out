@@ -1,0 +1,29 @@
+current directory: /home/thuytran/app/vendor/bundle/ruby/2.7.0/gems/mini_racer-0.6.4/ext/mini_racer_extension
+/home/thuytran/.asdf/installs/ruby/2.7.4/bin/ruby extconf.rb
+checking for -lpthread... yes
+checking for whether -Wl,--exclude-libs=ALL  is accepted as LDFLAGS... yes
+creating Makefile
+
+current directory: /home/thuytran/app/vendor/bundle/ruby/2.7.0/gems/mini_racer-0.6.4/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20230825-34727-u2h3l8 sitelibdir\=./.gem.20230825-34727-u2h3l8 clean
+
+current directory: /home/thuytran/app/vendor/bundle/ruby/2.7.0/gems/mini_racer-0.6.4/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20230825-34727-u2h3l8 sitelibdir\=./.gem.20230825-34727-u2h3l8
+compiling mini_racer_extension.cc
+In file included from /home/thuytran/app/vendor/bundle/ruby/2.7.0/gems/libv8-node-16.19.0.1-x86_64-linux/vendor/v8/include/v8.h:30,
+                 from mini_racer_extension.cc:6:
+/home/thuytran/app/vendor/bundle/ruby/2.7.0/gems/libv8-node-16.19.0.1-x86_64-linux/vendor/v8/include/v8-internal.h: In function ‘VALUE convert_v8_to_ruby(v8::Isolate*, v8::Local<v8::Context>, v8::Local<v8::Value>)’:
+/home/thuytran/app/vendor/bundle/ruby/2.7.0/gems/libv8-node-16.19.0.1-x86_64-linux/vendor/v8/include/v8-internal.h:367:48: warning: ‘stackCounter.StackCounter::isolate’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  367 |     return *reinterpret_cast<void* const*>(addr);
+      |                                                ^
+mini_racer_extension.cc:569:18: note: ‘stackCounter.StackCounter::isolate’ was declared here
+  569 |     StackCounter stackCounter(isolate);
+      |                  ^~~~~~~~~~~~
+linking shared-object mini_racer_extension.so
+
+current directory: /home/thuytran/app/vendor/bundle/ruby/2.7.0/gems/mini_racer-0.6.4/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20230825-34727-u2h3l8 sitelibdir\=./.gem.20230825-34727-u2h3l8 install
+/usr/bin/install -c -m 0755 mini_racer_extension.so ./.gem.20230825-34727-u2h3l8
+
+current directory: /home/thuytran/app/vendor/bundle/ruby/2.7.0/gems/mini_racer-0.6.4/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20230825-34727-u2h3l8 sitelibdir\=./.gem.20230825-34727-u2h3l8 clean

@@ -1,0 +1,54 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.carousel-caption {
+    position:absolute;
+    top: 54%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+.carousel-caption .btn {
+    padding: .5rem;
+    border-radius: .5rem;
+    font-size: 1.3rem;
+}
+.carousel-caption .btn-first{
+    background-color: #ff4d29;
+    color: white;
+    padding: .7rem;
+    margin-right: 2rem;
+}
+.carousel-caption .btn-first:hover{
+    background-color: #d23010;
+    color: white;
+    padding: .7rem;
+    margin-right: 2rem;
+}
+.carousel-caption .btn-second{
+    color: white;
+    border: 1px solid #ffffff;
+    margin-left: 2rem;
+    padding: .7rem;
+}
+.carousel-caption .btn-second:hover{
+    background-color: #6ebb70;
+    color: white;
+    padding: .7rem;
+    margin-left: 2rem;
+}
+.bg-custom {
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    border-radius: 1rem;
+}
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+.border-primary {
+    border-top: .2rem solid #4981b3!important;
+}
+.carousel-caption h3 {
+    font-size: 2.2rem;
+    text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);
+}
